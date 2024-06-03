@@ -1,0 +1,56 @@
+
+body {
+    font-variant-ligatures: common-ligatures;
+}
+.justify-text {
+    text-align: justify;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 900; /* 对应83nheavy expend */
+    color: #000000; /* 修改为白色 */
+    font-size: 32px;
+    display: flex;
+    line-height: 0.95; /* 设置行高为1，使得行间距更紧凑 */
+    text-transform: uppercase; /* 将文本全部转换为大写 */
+    letter-spacing: -1px; /* 设置负值来让字间距更紧凑 */
+    transform: scaleX(1); /* 将字体同时横向和纵向拉伸为120% */
+    /* mix-blend-mode: difference;  设置混合模式为反色 */
+	 max-width: 1920px; /* Optional: Set a maximum width for content */
+    margin: 0 auto; /* Center the content */
+    padding: 0px;
+	display: inline-block; /* 将元素设置为内联块级元素 */
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+    font-variant-ligatures: normal;
+}
+
+.justify-text::before,
+.justify-text::after {
+    content: "";
+    flex: 1;
+}
+
+#main-content, #projects {
+    max-width: 1920px; /* Optional: Set a maximum width for content */
+    margin: 0 auto; /* Center the content */
+    padding: 0px;
+}
+
+img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* 添加分栏样式 */
+#main-content p {
+    column-count: 2; /* 设置分栏数量为2 */
+    column-gap: 20px; /* 设置分栏之间的间隔 */
+    text-align: justify; /* 使文本两端对齐 */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600; /* 对应83nheavy expend */
+    font-size: 16px;
+    color: #000000; /* 修改为白色 */
+    mix-blend-mode: difference; /* 设置混合模式为反色 */
+    font-variant-ligatures: normal
+}
