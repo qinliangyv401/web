@@ -3,7 +3,7 @@ body {
     font-variant-ligatures: common-ligatures;
 }
 .justify-text {
-    text-align: left;
+    text-align: justify;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 900; /* 对应83nheavy expend */
     color: #000000; /* 修改为白色 */
@@ -46,7 +46,7 @@ img {
 #main-content p {
     column-count: 2; /* 设置分栏数量为2 */
     column-gap: 20px; /* 设置分栏之间的间隔 */
-    text-align: left; /* justify 使文本两端对齐 */
+    text-align: justify; /* justify 使文本两端对齐 */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600; /* 对应83nheavy expend */
     font-size: 16px;
