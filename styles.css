@@ -51,6 +51,6 @@ img {
     font-weight: 600; /* 对应83nheavy expend */
     font-size: 16px;
     color: #000000; /* 修改为白色 */
-    mix-blend-mode: difference; /* 设置混合模式为反色 */
+     /* mix-blend-mode: difference; 设置混合模式为反色 */
     font-variant-ligatures: normal
 }
